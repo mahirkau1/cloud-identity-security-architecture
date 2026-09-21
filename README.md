@@ -40,6 +40,10 @@ Wazuh SIEM (tespit + otomatik müdahale)
 
 Örnek policy (Analyst — read-only):
 
+<img width="363" height="356" alt="Screenshot 2026-09-21 182700" src="https://github.com/user-attachments/assets/69db5956-9e91-41e3-b36c-bfcf738e8c7a" /> <img width="445" height="517" alt="Screenshot 2026-09-21 182649" src="https://github.com/user-attachments/assets/a02347c4-2489-456a-8f6a-79e621cdbb0f" />
+
+
+
 ```json
 {
   "Version": "2012-10-17",
