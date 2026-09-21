@@ -72,6 +72,9 @@ Her rol, console üzerinden gerçek giriş yapılarak test edildi — "kağıt �
 - **Developer** → S3'te dosya yükleyip silebildi, ancak yeni EC2 instance başlatma denemesi `UnauthorizedOperation` ile reddedildi
 - **Admin** → yeni IAM kullanıcı oluşturabildi, ancak kullanıcı silme denemesi `Access Denied` ile reddedildi (bilerek konan `Deny` kuralı sayesinde)
 - **Vendor** → sadece kendisine ayrılan bucket'ı görebildi, hesaptaki diğer kaynaklara erişemedi
+<img width="1633" height="556" alt="Screenshot 2026-09-21 182222" src="https://github.com/user-attachments/assets/adfc9509-b11f-4b08-896b-b8fcf5d667c6" />
+<img width="1461" height="506" alt="Screenshot 2026-09-21 182344" src="https://github.com/user-attachments/assets/e44c4d4e-0b74-45af-980a-c305a9daf832" />
+
 
 ## Katman 3: Kaynaklar
 
