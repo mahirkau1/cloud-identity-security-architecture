@@ -5,6 +5,8 @@ Uçtan uca bir cloud identity ve erişim yönetimi mimarisi: least-privilege IAM
 ## Proje Amacı
 
 Bu proje, küçük ölçekli bir şirket senaryosunda (Developer, Admin, Analyst, Vendor rolleri) AWS üzerinde **kim, neye, nasıl erişebilir** sorusunu tasarlayan, bu tasarımı gerçek testlerle doğrulayan ve tüm identity aktivitesini izleyip şüpheli davranışlara otomatik tepki veren bir güvenlik mimarisini uçtan uca kurmayı hedefler.
+<img width="1658" height="384" alt="Screenshot 2026-09-21 180339" src="https://github.com/user-attachments/assets/7bebaf8c-d634-43e4-9807-427d048b0b73" />
+
 
 ## Mimari Genel Bakış
 
