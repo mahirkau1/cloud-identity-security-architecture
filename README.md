@@ -91,6 +91,9 @@ Hesaptaki tüm API çağrıları (kim, ne zaman, hangi işlem) CloudTrail ile lo
 
 Wazuh'un `aws-s3` modülü, CloudTrail loglarını düzenli aralıklarla S3'ten okuyacak şekilde yapılandırıldı:
 
+ <img width="609" height="199" alt="Screenshot 2026-09-21 180547" src="https://github.com/user-attachments/assets/63ee8fd2-8eec-4954-a595-f3a2aaa793ab" />
+
+
 ```xml
 <wodle name="aws-s3">
   <disabled>no</disabled>
