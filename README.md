@@ -91,7 +91,6 @@ Hesaptaki tüm API çağrıları (kim, ne zaman, hangi işlem) CloudTrail ile lo
 
 Wazuh'un `aws-s3` modülü, CloudTrail loglarını düzenli aralıklarla S3'ten okuyacak şekilde yapılandırıldı:
 
- <img width="609" height="199" alt="Screenshot 2026-09-21 180547" src="https://github.com/user-attachments/assets/63ee8fd2-8eec-4954-a595-f3a2aaa793ab" />
 
 
 ```xml
@@ -111,6 +110,11 @@ Wazuh'un `aws-s3` modülü, CloudTrail loglarını düzenli aralıklarla S3'ten 
 ### Custom Detection Rule
 
 Standart CloudTrail kuralları her olayı düşük seviyeli (level 3) bilgi kaydı olarak işaretliyor. `AccessDenied` olaylarını özel olarak yakalayıp yüksek öncelikli alarma çeviren bir kural yazıldı:
+
+  <img width="1908" height="670" alt="Screenshot 2026-09-21 180053" src="https://github.com/user-attachments/assets/ce7258b4-4fef-407d-a2d1-df05b554b2e2" />
+  <img width="1049" height="834" alt="Screenshot 2026-09-21 180155" src="https://github.com/user-attachments/assets/d4c42a07-e259-449e-b338-3d9fcdc0eb16" />
+
+
 
 ```xml
 <rule id="100010" level="10">
